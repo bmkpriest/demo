@@ -1,0 +1,23 @@
+{
+  "name": "demo-test",
+  "version": "1.0.0",
+  "description": "Agency website demo",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Brandon Priest",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "mongoose": "^5.13.7",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "path": "^0.12.7",
+    "views": "^1.0.2"
+  },
+  "devDependencies": {}
+}
