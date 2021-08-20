@@ -21,10 +21,10 @@ app.get("/", function(req, res){
 
 
 // SERVER PORT LOCAL AND DEV ENVIRONMENT
-// app.listen(8000, function (){
-//   console.log("SERVER RUNNING ON PORT 8000");
-// });
-
-app.listen(process.env.PORT, process.env.IP, function(){
-   console.log("Demo site has started");
+app.listen(8000, function (){
+  console.log("SERVER RUNNING ON PORT 8000");
 });
+
+// app.listen(process.env.PORT, process.env.IP, function(){
+//    console.log("Demo site has started");
+// });
