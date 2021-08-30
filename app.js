@@ -19,6 +19,10 @@ app.get("/", function(req, res){
   res.render("index");
 });
 
+app.get("/case-study", function(req, res){
+  res.render("case-study");
+});
+
 
 // SERVER PORT LOCAL AND DEV ENVIRONMENT
 // app.listen(8000, function (){
