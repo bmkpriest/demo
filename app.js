@@ -23,6 +23,10 @@ app.get("/case-study", function(req, res){
   res.render("case-study");
 });
 
+app.get("/thank-you", function(req, res){
+  res.render("thank-you");
+});
+
 
 // SERVER PORT LOCAL AND DEV ENVIRONMENT
 // app.listen(8000, function (){
